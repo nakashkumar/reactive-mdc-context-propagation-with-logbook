@@ -1,0 +1,14 @@
+
+logging:
+  config: classpath:log4j2.xml
+
+management:
+  tracing:
+    sampling:
+      probability: 0.0
+    baggage:
+      remote-fields:
+        - x-request-id
+      correlation:
+        fields:
+          - x-request-id
