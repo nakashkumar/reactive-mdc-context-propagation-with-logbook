@@ -1,3 +1,5 @@
+https://gist.github.com/chemicL/0e0d8e95e28414f0ecb769a5b8ca326e
+
 # Reproducer
 
 `x-request-id` from request headers is not being logged correctly with MDC and reactor context.
